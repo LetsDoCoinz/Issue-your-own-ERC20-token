@@ -3,11 +3,11 @@ pragma solidity ^0.4.18;
 // ----------------------------------------------------------------------------
 // '0Fucks' token contract
 //
-// Deployed to : 0x5A86f0cafD4ef3ba4f0344C138afcC84bd1ED222
-// Symbol      : 0FUCKS
-// Name        : 0 Fucks Token
+// Deployed to : 0xF062b6035bf43D5FC55AbB04439d84E122b20D65
+// Symbol      : LDCZB
+// Name        : LetsDoCoinz Beta
 // Total supply: 100000000
-// Decimals    : 18
+// Decimals    : 8
 //
 // Enjoy.
 //
@@ -115,10 +115,10 @@ contract FucksToken is ERC20Interface, Owned, SafeMath {
     function FucksToken() public {
         symbol = "0FUCKS";
         name = "0 Fucks Token";
-        decimals = 18;
-        _totalSupply = 100000000000000000000000000;
-        balances[0x5A86f0cafD4ef3ba4f0344C138afcC84bd1ED222] = _totalSupply;
-        Transfer(address(0), 0x5A86f0cafD4ef3ba4f0344C138afcC84bd1ED222, _totalSupply);
+        decimals = 8;
+        _totalSupply = 10000000000000000;
+        balances[0xF062b6035bf43D5FC55AbB04439d84E122b20D65] = _totalSupply;
+        Transfer(address(0), 0xF062b6035bf43D5FC55AbB04439d84E122b20D65, _totalSupply);
     }
 
 
