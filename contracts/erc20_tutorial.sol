@@ -1,7 +1,7 @@
 pragma solidity ^0.4.18;
 
 // ----------------------------------------------------------------------------
-// '0Fucks' token contract
+// 'LetsDoCoinz Beta' token contract
 //
 // Deployed to : 0xF062b6035bf43D5FC55AbB04439d84E122b20D65
 // Symbol      : LDCZB
@@ -99,7 +99,7 @@ contract Owned {
 // ERC20 Token, with the addition of symbol, name and decimals and assisted
 // token transfers
 // ----------------------------------------------------------------------------
-contract FucksToken is ERC20Interface, Owned, SafeMath {
+contract LetsDoCoinzBetaToken is ERC20Interface, Owned, SafeMath {
     string public symbol;
     string public  name;
     uint8 public decimals;
@@ -112,9 +112,9 @@ contract FucksToken is ERC20Interface, Owned, SafeMath {
     // ------------------------------------------------------------------------
     // Constructor
     // ------------------------------------------------------------------------
-    function FucksToken() public {
-        symbol = "0FUCKS";
-        name = "0 Fucks Token";
+    function LetsDoCoinzBetaToken() public {
+        symbol = "LDCZB";
+        name = "LetsDoCoinz Beta Token";
         decimals = 8;
         _totalSupply = 10000000000000000;
         balances[0xF062b6035bf43D5FC55AbB04439d84E122b20D65] = _totalSupply;
